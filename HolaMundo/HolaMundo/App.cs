@@ -9,7 +9,7 @@ namespace HolaMundo
 		{	
 			return new ContentPage { 
 				Content = new Label {
-					Text = "Hola mundo!",
+					Text = "SERGIO CEASR RUIZ SANTANA N° CUENTA 412110696",
 					VerticalOptions = LayoutOptions.CenterAndExpand,
 					HorizontalOptions = LayoutOptions.CenterAndExpand,
 				},
