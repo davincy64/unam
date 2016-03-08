@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actividad3.iOS", "iOS\Activ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actividad3.Android", "Android\Actividad3.Android.csproj", "{561B1264-1CB1-4E76-BC4B-F7798043C6F2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nueva carpeta", "Nueva carpeta", "{35DD0443-A11E-4111-9F72-08CE91DAEFE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -51,6 +53,8 @@ Global
 		{561B1264-1CB1-4E76-BC4B-F7798043C6F2}.Release|iPhone.Build.0 = Release|Any CPU
 		{561B1264-1CB1-4E76-BC4B-F7798043C6F2}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{561B1264-1CB1-4E76-BC4B-F7798043C6F2}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = iOS\Actividad3.iOS.csproj
