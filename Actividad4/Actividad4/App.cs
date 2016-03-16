@@ -12,7 +12,7 @@ namespace Actividad4
 
 			//Se modifican sus propiedades
 			//Texto
-			label.Text = "Cámbiame";
+			label.Text = "como benefician las llamada con async/await";
 			//Color del texto
 			label.TextColor = Color.Blue;
 			//Alineación vertical (YAlign). Para la alineación horizontal, usar XAlign
