@@ -21,7 +21,7 @@ namespace Actividad5
 				{
 					new Label
 					{
-						Text = "Blue",
+						Text = "red",
 						TextColor = Color.Blue
 					},
 					new Label
