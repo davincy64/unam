@@ -7,8 +7,8 @@ namespace Actividad5
  	{ 
  		public Login () 
  		{ 
- 			Entry usuario = new Entry { Placeholder = "Usuario" }; 
- 			Entry clave = new Entry { Placeholder = "Clave", IsPassword = true }; 
+ 			Entry usuario = new Entry { Placeholder = "Xamarin" }; 
+ 			Entry clave = new Entry { Placeholder = "Xamarin", IsPassword = true }; 
  
 
 			Button boton = new Button { 
@@ -20,7 +20,7 @@ namespace Actividad5
 
  			boton.Clicked += (sender, e) => { 
 
- 				if(usuario.Text.Equals("usuario")){ 
+ 				if(usuario.Text.Equals("Xamarin")){ 
 				     Navigation.PushAsync(new Contenido()); 
 			        } 
 			};  

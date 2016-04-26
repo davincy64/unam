@@ -53,6 +53,14 @@ Global
 		{D2B1BDC7-B177-4B5C-ACF9-CE3D3041CC3F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.VersionControlPolicy = $1
+		$1.inheritsSet = Mono
+		$0.ChangeLogPolicy = $2
+		$2.UpdateMode = None
+		$2.MessageStyle = $3
+		$3.LineAlign = 0
+		$2.inheritsSet = Mono
 		StartupItem = iOS\Actividad5.iOS.csproj
 	EndGlobalSection
 EndGlobal

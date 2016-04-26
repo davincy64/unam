@@ -25,9 +25,9 @@ using Org.Apache.Http.Util;
  	{ 
  		public Contenido () 
  		{ 
-			Entry entry = new Entry { Placeholder = "Conexión" }; 
+			Entry entry = new Entry { Placeholder = "Ok En Conexión" }; 
 			Label filenameLabel = new Label{Text="Error"}; 
-			string url = "http://212.47.237.211/login"; 
+			string url = "http://104.42.52.205/mobile/login"; 
 			string result = String.Empty; 
 			DefaultHttpClientConnection cliente = new DefaultHttpClientConnection(); 
 			HttpPost posteo = new HttpPost (url); 

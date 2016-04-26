@@ -21,14 +21,16 @@ namespace Actividad6
 					usuario.Text.Equals("XAMARIN"). clave.Equals("XAMARIN"); {
 					usuario.TextColor = Color.Red;
 					clave.TextColor = Color.Red;
-					string url = "http://212.47.237.211/login"; 
+					string url = "http://104.42.52.205/mobile/login"; 
+					await contentPage.DisplayAlert("Respuesta del servidor",response, "Ok En conexión");
 					string result = String.Empty; 
-					await contentPage.DisplayAlert("Respuesta del servidor",response, "no es el usuario");
+
 				} else {
 					usuario.TextColor = Color.Green;
 					clave.TextColor = Color.Green;
 					this.Navigation.PushAsync(new newpage());
 					Navigation.PushAsync(new newpage()); 
+					await contentPage.DisplayAlert("Respuesta del servidor",response, "Error");
 
 				}
 			};
